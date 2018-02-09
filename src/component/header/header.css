@@ -1,0 +1,44 @@
+
+.left-align{
+    float: left;
+  
+  
+  }
+  
+  .right-align{
+    float: right;
+  
+  }
+  
+  .right-align h2{
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  .left-align li{
+  
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .header{
+    background-color: lightgoldenrodyellow;
+    display: inline-block;
+    width: 100%;
+  }
+
+
+  .active{
+      background-color: lightgrey;
+      cursor: none;
+  }
+
+
+  .active a{
+      font-weight: bold;
+      color: black !important;
+      text-decoration: none !important;
+  }
